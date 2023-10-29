@@ -1,0 +1,3 @@
+### GET Country info
+GET https://api.api-ninjas.com/v1/country?name=United%20States
+X-Api-Key: {{api_key}}
