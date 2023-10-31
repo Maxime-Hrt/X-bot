@@ -1,12 +1,13 @@
 from .setup import get_twitter_conn_v1, get_twitter_conn_v2
 
+
 class Twitter:
 
     def __init__(self):
         self.client_v1 = get_twitter_conn_v1()
         self.client_v2 = get_twitter_conn_v2()
 
-    # Post a tweet
+    # Post a tweet - can be used to reply to a tweet
     def post(self, status, tweet_id=None):
         if tweet_id is None:
             tweet = self.client_v2.create_tweet(text=status)
@@ -26,8 +27,12 @@ class Twitter:
                 tweet_ids.append(tweet_id)
         return tweet_ids
 
-    def post_with_media(self, status, media_path):
+    # Post a tweet with an image - can be used to reply to a tweet
+    def post_with_media(self, status, media_path, tweet_id=None):
         media = self.client_v1.media_upload(filename=media_path)
         media_id = media.media_id
 
-        self.client_v2.create_tweet(text=status, media_ids=[media_id])
+        if tweet_id is None:
+            self.client_v2.create_tweet(text=status, media_ids=[media_id])
+        else:
+            self.client_v2.create_tweet(text=status, media_ids=[media_id], in_reply_to_tweet_id=tweet_id)

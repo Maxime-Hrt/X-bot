@@ -1,8 +1,7 @@
 from twitter.twitter import Twitter
+from media.pexel import get_id_large_2x_top, download_media
 
-# twitter = Twitter(client)
-# twitter.post_with_media("Test image", "/Users/maxime_hrt/Downloads/DALL·E Indonesian woman sewing.png")
-
-image_path = "PATH_TO_IMAGE"
 twitter = Twitter()
-twitter.post_with_media("Test image", image_path)
+media_path = get_id_large_2x_top('Bromo')
+filename = download_media(media_path['photo'], media_path['alt'])
+twitter.post_with_media(status='Stunning Mountain', media_path=filename)
