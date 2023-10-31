@@ -28,5 +28,21 @@ class NinjasCountry(Ninjas):
                     tweet_content = ""
             except Exception as e:
                 print(f"Error: {e}, {country} not found.")
+        return tweets
 
+    def population(self):
+        tweet_content = "Country population:\n\n"
+        tweets = []
+        for country in COUNTRIES:
+            try:
+                data = self.all_info(country)
+                number = int(data[0]['population']) * 1000
+                formatted_number = '{:,}'.format(number).replace(',', ' ')
+                tweet_content += f"{flag.flag(data[0]['iso2'])} {data[0]['name']}: {formatted_number}\n"
+                print(tweet_content)
+                if len(tweet_content) > 250:
+                    tweets.append(tweet_content)
+                    tweet_content = ""
+            except Exception as e:
+                print(f"Error: {e}, {country} not found.")
         return tweets

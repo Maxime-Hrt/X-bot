@@ -1,10 +1,8 @@
-import subprocess
+from twitter import Twitter
 from ninjas.country import NinjasCountry
-from twitter_api import post_tweet_with_reply
+from setup import client
 
 
-subprocess.call(["python", "setup.py"])
-
-tweets = NinjasCountry().homicide_rate()
-tweet_ids = post_tweet_with_reply(tweets)
-print(tweet_ids)
+tweets = NinjasCountry().population()
+twitter = Twitter(client)
+tweet_ids = twitter.post_tweet_with_reply(tweets)
