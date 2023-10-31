@@ -1,14 +1,17 @@
+from .setup import get_twitter_conn_v1, get_twitter_conn_v2
+
 class Twitter:
 
-    def __init__(self, account_client):
-        self.account_client = account_client
+    def __init__(self):
+        self.client_v1 = get_twitter_conn_v1()
+        self.client_v2 = get_twitter_conn_v2()
 
     # Post a tweet
     def post(self, status, tweet_id=None):
         if tweet_id is None:
-            tweet = self.account_client.create_tweet(text=status)
+            tweet = self.client_v2.create_tweet(text=status)
         else:
-            tweet = self.account_client.create_tweet(text=status, in_reply_to_tweet_id=tweet_id)
+            tweet = self.client_v2.create_tweet(text=status, in_reply_to_tweet_id=tweet_id)
         return tweet
 
     # Post a tweet, if the tweet is too long, split it into multiple tweets
@@ -22,3 +25,9 @@ class Twitter:
                 tweet_id = self.post(tweet, tweet_ids[i - 1].data.get('id'))
                 tweet_ids.append(tweet_id)
         return tweet_ids
+
+    def post_with_media(self, status, media_path):
+        media = self.client_v1.media_upload(filename=media_path)
+        media_id = media.media_id
+
+        self.client_v2.create_tweet(text=status, media_ids=[media_id])

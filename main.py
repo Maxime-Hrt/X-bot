@@ -1,8 +1,8 @@
-from twitter import Twitter
-from ninjas.country import NinjasCountry
-from setup import client
+from twitter.twitter import Twitter
 
+# twitter = Twitter(client)
+# twitter.post_with_media("Test image", "/Users/maxime_hrt/Downloads/DALL·E Indonesian woman sewing.png")
 
-tweets = NinjasCountry().population()
-twitter = Twitter(client)
-tweet_ids = twitter.post_tweet_with_reply(tweets)
+image_path = "PATH_TO_IMAGE"
+twitter = Twitter()
+twitter.post_with_media("Test image", image_path)
