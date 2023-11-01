@@ -1,0 +1,4 @@
+# Get photos
+GET https://api.pexels.com/v1/search?query=Sorrente&per_page=15&page=1
+Content-Type: application/json
+Authorization: {{api_key}}

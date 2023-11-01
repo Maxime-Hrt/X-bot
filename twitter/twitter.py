@@ -28,11 +28,14 @@ class Twitter:
         return tweet_ids
 
     # Post a tweet with an image - can be used to reply to a tweet
-    def post_with_media(self, status, media_path, tweet_id=None):
-        media = self.client_v1.media_upload(filename=media_path)
-        media_id = media.media_id
+    def post_with_media(self, status, media_paths, tweet_id=None):
+        media_ids = []
+        for media_path in media_paths:
+            media = self.client_v1.media_upload(filename=media_path)
+            media_ids.append(media.media_id)
 
         if tweet_id is None:
-            self.client_v2.create_tweet(text=status, media_ids=[media_id])
+            tweet = self.client_v2.create_tweet(text=status, media_ids=media_ids)
         else:
-            self.client_v2.create_tweet(text=status, media_ids=[media_id], in_reply_to_tweet_id=tweet_id)
+            tweet = self.client_v2.create_tweet(text=status, media_ids=media_ids, in_reply_to_tweet_id=tweet_id)
+        return tweet

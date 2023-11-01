@@ -1,0 +1,28 @@
+### Get data from places with text query
+POST https://places.googleapis.com/v1/places:searchText
+Content-Type: application/json
+X-Goog-Api-Key: {{api_key}}
+X-Goog-FieldMask: places.id,places.displayName,places.formattedAddress,places.priceLevel
+
+{
+  "textQuery": "Amalfi Coast"
+}
+
+### Place details (photo reference)
+GET https://maps.googleapis.com/maps/api/place/details/json?
+    place_id=ChIJoXFMw62VOxMR3ExPyRTP6Ew&fields=photos&
+    key={{api_key}}
+Content-Type: application/json
+
+### Get photo
+GET https://maps.googleapis.com/maps/api/place/photo?
+    maxwidth=1600&
+    photo_reference=AcJnMuEzuGccwq0C23ciIgtTuR4f2bSK8evF5vbLPia8qhwfjyJVRnLWLIL7rvkxyTMs6H_9LfNNcduCaVZiWZxrV3Swg-sYNHp-3n4su2TU2ZmTgm8wRq0HxefxPzSYrOkMU1CT0tv_Wp2AlKMk4xsg0CQDFqNop-lrI9kN42PDnNNWg-2b
+    &key={{api_key}}
+
+### Get data from places
+GET https://maps.googleapis.com/maps/api/place/findplacefromtext/json?
+    input=Museum%20of%20Contemporary%20Art%20Australia&inputtype=textquery&
+    fields=formatted_address%2Cname%2Crating%2Copening_hours%2Cgeometry&
+    key={{api_key}}
+

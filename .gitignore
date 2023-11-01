@@ -3,3 +3,5 @@ http/http-client.private.env.json
 .idea
 
 __pycache__
+
+media/images
