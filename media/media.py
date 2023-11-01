@@ -1,11 +1,46 @@
 import os
+import sys
 import json
 import flag
+import time
+import tweepy
 import requests
 
+from lib.country import get_country_code
+from lib.file_functions import get_file_paths, generate_pattern, custom_split
+
+
+def get_photo_references(place_id):
+    url = f'https://maps.googleapis.com/maps/api/place/details/json?'
+    place_id_url = f'place_id={place_id}&fields=photo&key={os.getenv("PLACES_KEY")}'
+    try:
+        response = requests.get(url + place_id_url)
+        if response.status_code == requests.codes.ok:
+            photo_reference = []
+            for photo in response.json()['result']['photos']:
+                start_index = photo['html_attributions'][0].find(">")
+                end_index = photo['html_attributions'][0].find("</")
+                if start_index != -1 and end_index != -1:
+                    author = photo['html_attributions'][0][start_index + 1:end_index]
+                else:
+                    author = None
+                if photo['width'] > 1600 and photo['height'] > 1600:
+                    photo_reference.append({
+                        'photo': photo['photo_reference'],
+                        'author': author
+                    })
+            return photo_reference
+        else:
+            return 'Error:', response.status_code, response.json()
+    except Exception as e:
+        print(f"Error: {e}")
+        return None
+
+
 class Media:
-    def __init__(self, location):
+    def __init__(self, location, twitter):
         self.location = location
+        self.twitter = twitter
 
     # GET the place ID by querying the location (other parameters can be added)
     def get_places_id(self):
@@ -95,29 +130,38 @@ class Media:
         self.download_media(photo_references)
         return photo_references
 
+    def get_title(self):
+        country_code = get_country_code(self.get_country_name())
+        return f'{flag.flag(country_code)} {self.location}, {self.get_country_name()}'
 
-def get_photo_references(place_id):
-    url = f'https://maps.googleapis.com/maps/api/place/details/json?'
-    place_id_url = f'place_id={place_id}&fields=photo&key={os.getenv("PLACES_KEY")}'
-    try:
-        response = requests.get(url + place_id_url)
-        if response.status_code == requests.codes.ok:
-            photo_reference = []
-            for photo in response.json()['result']['photos']:
-                start_index = photo['html_attributions'][0].find(">")
-                end_index = photo['html_attributions'][0].find("</")
-                if start_index != -1 and end_index != -1:
-                    author = photo['html_attributions'][0][start_index + 1:end_index]
-                else:
-                    author = None
-                if photo['width'] > 1600 and photo['height'] > 1600:
-                    photo_reference.append({
-                        'photo': photo['photo_reference'],
-                        'author': author
-                    })
-            return photo_reference
-        else:
-            return 'Error:', response.status_code, response.json()
-    except Exception as e:
-        print(f"Error: {e}")
-        return None
+    def post(self):
+        try:
+            status = self.get_title()
+        except Exception as e:
+            print(f"Title error: {e}")
+            sys.exit(1)
+        # Download all photos
+        photo_reference = self.download_all()
+        # Get the path of all photos
+        path = f'media/images/{self.location}'
+        # Get the pattern of the file names
+        file_path = get_file_paths(path)
+        pattern = generate_pattern(path)
+        media_path = custom_split(file_path, pattern)
+        # Post the photos
+        tweet_id = None
+        for i, media in enumerate(media_path):
+            if tweet_id is not None:
+                tweet_id = tweet_id.data.get('id')
+                status = ' '
+
+            tweet_id = self.twitter.post_with_media_handling_rate_limit(
+                status=status,
+                media_paths=media,
+                tweet_id=tweet_id
+            )
+        # Post the authors
+        authors = [f'-{photo.get("author")} \n' for photo in photo_reference]
+        authors = "Photographers: \n" + ''.join(authors)
+        self.twitter.post(status=authors, tweet_id=tweet_id.data.get('id'))
+        print("Posted Successfully!")
