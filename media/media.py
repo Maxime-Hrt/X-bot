@@ -1,9 +1,7 @@
 import os
 import json
-import re
-
+import flag
 import requests
-
 
 class Media:
     def __init__(self, location):
@@ -38,6 +36,32 @@ class Media:
         else:
             return {'Error': 'No photos found'}
 
+    def get_place_info(self):
+        url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
+        params = {
+            'input': self.location,
+            'inputtype': 'textquery',
+            'fields': 'formatted_address,name,geometry',
+            'language': 'en',
+            'key': os.getenv('PLACES_KEY')
+        }
+        try:
+            response = requests.get(url, params=params)
+            if response.status_code == requests.codes.ok:
+                return response.json()
+            else:
+                return 'Error:', response.status_code, response.json()
+        except Exception as e:
+            print(f"Error: {e}")
+            return None
+
+    def get_country_name(self):
+        data = self.get_place_info()
+        if data is not None:
+            return data['candidates'][0]['formatted_address'].split(', ')[-1]
+        else:
+            return {'Error': 'No photos found'}
+
     def download_media(self, photo_references):
         # Create a folder for the location
         if not os.path.exists(f"media/images/{self.location}"):
@@ -67,7 +91,9 @@ class Media:
     def download_all(self):
         media_path = self.get_places_id_top()
         photo_references = get_photo_references(media_path)
+        # [print(photo.get('author')) for photo in photo_references]
         self.download_media(photo_references)
+        return photo_references
 
 
 def get_photo_references(place_id):
@@ -84,10 +110,11 @@ def get_photo_references(place_id):
                     author = photo['html_attributions'][0][start_index + 1:end_index]
                 else:
                     author = None
-                photo_reference.append({
-                    'photo': photo['photo_reference'],
-                    'author': author
-                })
+                if photo['width'] > 1600 and photo['height'] > 1600:
+                    photo_reference.append({
+                        'photo': photo['photo_reference'],
+                        'author': author
+                    })
             return photo_reference
         else:
             return 'Error:', response.status_code, response.json()
