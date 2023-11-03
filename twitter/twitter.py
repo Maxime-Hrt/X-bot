@@ -3,6 +3,10 @@ import tweepy
 
 from .setup import get_twitter_conn_v1, get_twitter_conn_v2
 
+# TODO:
+#   Delete the photo after posting
+#   Delete Tweet function
+
 
 class Twitter:
     def __init__(self):
@@ -57,3 +61,13 @@ class Twitter:
                 time.sleep(delay)
             except Exception as e:
                 raise e
+
+    # Not authorized endpoints - have to change plan to access
+    def delete_tweet(self, tweet_id):
+        self.client_v2.delete_tweet(tweet_id)
+
+    def get_tweet(self, tweet_id):
+        return self.client_v2.get_tweet(tweet_id)
+
+    def get_tweet_by_username(self, username):
+        return self.client_v1.user_timeline(screen_name=username, count=100, include_rts=False, tweet_mode='extended')

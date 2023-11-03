@@ -14,7 +14,7 @@ _ACCESS_TOKEN_SECRET = os.getenv('ACCESS_TOKEN_SECRET')
 def get_twitter_conn_v1():
     auth = tweepy.OAuth1UserHandler(_API_KEY, _API_SECRET)
     auth.set_access_token(_ACCESS_TOKEN, _ACCESS_TOKEN_SECRET)
-    return tweepy.API(auth)
+    return tweepy.API(auth, wait_on_rate_limit=True)
 
 
 def get_twitter_conn_v2():

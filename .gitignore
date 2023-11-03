@@ -5,3 +5,7 @@ http/http-client.private.env.json
 __pycache__
 
 media/images
+
+serpapi_bali.json
+serpapi_elNido.json
+Reco-Travel-Bot

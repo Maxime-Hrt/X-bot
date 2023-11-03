@@ -29,3 +29,10 @@ GET https://maps.googleapis.com/maps/api/place/findplacefromtext/json?
     language=en&
     key={{api_key}}
 
+### Get places of interest
+GET https://maps.googleapis.com/maps/api/place/nearbysearch/json?
+    location=-7.967498%2C112.633308&
+    radius=200000&
+    type=point_of_interest&
+    language=en&
+    key={{api_key}}
