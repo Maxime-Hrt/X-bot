@@ -28,4 +28,19 @@ class DB:
         self.cur.execute(sql, (location,))
         self.con.commit()
 
+    def get_all_tweets(self):
+        sql = """
+            SELECT * FROM tweets
+            """
+        self.cur.execute(sql)
+        return self.cur.fetchall()
+
+    def get_tweet_by_location(self, location):
+        sql = """
+            SELECT * FROM tweets WHERE location_name=?
+            """
+        self.cur.execute(sql, (location,))
+        return self.cur.fetchall()
+
+
 # cur.execute("CREATE TABLE tweets(tweet_id, location_name, country, posting_date);")
