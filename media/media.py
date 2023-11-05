@@ -46,9 +46,17 @@ def get_places_of_interest_serpapi(place):
     }
     search = GoogleSearch(params)
     results = search.get_dict()
-    print(results)
-    data = results["popular_destinations"]
-    return [destination.get('title') for destination in data.get('destinations')]
+    try:
+        data = results["popular_destinations"]
+        return [destination.get('title') for destination in data.get('destinations')]
+    except Exception as e:
+        try:
+            print(f"Not find \"popular destinations\": {e}")
+            data = results.get('top_sights').get('sights')
+            return [sight.get('title') for sight in data]
+        except Exception as e:
+            print(f"Not find \"top sights\": {e}")
+            return None
 
 
 class Media:

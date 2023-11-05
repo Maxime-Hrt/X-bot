@@ -32,4 +32,4 @@ from media.media import Media, get_places_of_interest_serpapi
 # db.add_tweet((tweet_id, "Paris", "France", "03/11/2023"))
 # db.delete_tweet_by_location("Paris")
 
-print(get_places_of_interest_serpapi('Kuala Lumpur'))
+print(get_places_of_interest_serpapi('Jakarta'))
