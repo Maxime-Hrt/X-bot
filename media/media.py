@@ -6,6 +6,7 @@ import time
 import tweepy
 import requests
 
+from serpapi import GoogleSearch
 from lib.country import get_country_code
 from lib.file_functions import get_file_paths, generate_pattern, custom_split
 
@@ -35,6 +36,19 @@ def get_photo_references(place_id):
     except Exception as e:
         print(f"Error: {e}")
         return None
+
+
+def get_places_of_interest_serpapi(place):
+    params = {
+        "engine": "google",
+        "q": f"{place} Destinations",
+        "api_key": os.getenv('SERP_API_KEY'),
+    }
+    search = GoogleSearch(params)
+    results = search.get_dict()
+    print(results)
+    data = results["popular_destinations"]
+    return [destination.get('title') for destination in data.get('destinations')]
 
 
 class Media:

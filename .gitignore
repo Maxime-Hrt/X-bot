@@ -6,6 +6,6 @@ __pycache__
 
 media/images
 
-serpapi_bali.json
-serpapi_elNido.json
+media/serpapi/serpapi_bali.json
+media/serpapi/serpapi_elNido.json
 Reco-Travel-Bot

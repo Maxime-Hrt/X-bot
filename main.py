@@ -1,7 +1,8 @@
+import os
 import tweepy
 from db import DB
 from twitter.twitter import Twitter
-from media.media import Media
+from media.media import Media, get_places_of_interest_serpapi
 
 # TODO:
 #   Reply with the location of the photo & Maps link
@@ -11,19 +12,6 @@ from media.media import Media
 # FIXME:
 #   Fix the issue with the file names
 #   Handle error with unrecognized location
-
-# from serpapi import GoogleSearch
-#
-# params = {
-#   "engine": "google",
-#   "q": "Palawan Destinations",
-#   "api_key": os.getenv('SERP_API_KEY'),
-# }
-#
-# search = GoogleSearch(params)
-# results = search.get_dict()
-# popular_destinations = results["popular_destinations"]
-# print(popular_destinations)
 
 # location = 'El Nido'
 # media = Media(location, Twitter())
@@ -43,3 +31,5 @@ from media.media import Media
 # tweet_id = tweet.data.get('id')
 # db.add_tweet((tweet_id, "Paris", "France", "03/11/2023"))
 # db.delete_tweet_by_location("Paris")
+
+print(get_places_of_interest_serpapi('Kuala Lumpur'))

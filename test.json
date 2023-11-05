@@ -1,0 +1,1058 @@
+{
+  'search_metadata': {
+    'id': '65481c5beb690fdc83495ab3',
+    'status': 'Success',
+    'json_endpoint': 'https://serpapi.com/searches/7d7d26c11dc13547/65481c5beb690fdc83495ab3.json',
+    'created_at': '2023-11-05 22:51:07 UTC',
+    'processed_at': '2023-11-05 22:51:07 UTC',
+    'google_url': 'https://www.google.com/search?q=Kuala+Lumpur+Destinations&oq=Kuala+Lumpur+Destinations&sourceid=chrome&ie=UTF-8',
+    'raw_html_file': 'https://serpapi.com/searches/7d7d26c11dc13547/65481c5beb690fdc83495ab3.html',
+    'total_time_taken': 5.63
+  },
+  'search_parameters': {
+    'engine': 'google',
+    'q': 'Kuala Lumpur Destinations',
+    'google_domain': 'google.com',
+    'device': 'desktop'
+  },
+  'search_information': {
+    'query_displayed': 'Kuala Lumpur Destinations',
+    'total_results': 29800000,
+    'time_taken_displayed': 0.49,
+    'menu_items': [
+      {
+        'position': 1,
+        'title': 'Images',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Kuala+Lumpur+Destinations&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ0pQJegQIChAB',
+        'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google_images&gl=us&google_domain=google.com&hl=en&q=Kuala+Lumpur+Destinations'
+      },
+      {
+        'position': 2,
+        'title': 'Maps',
+        'link': 'https://maps.google.com/maps?sca_esv=579673275&output=search&q=Kuala+Lumpur+Destinations&source=lnms&entry=mc&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ0pQJegQICxAB'
+      },
+      {
+        'position': 3,
+        'title': 'Honeymoon',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Kuala+Lumpur+honeymoon+destinations&uds=H4sIAAAAAAAA_-Py5eL0yM9LrczNz88TkvQuTcxJVPApzS0oLVJwSS0uycxLLMnMzys2YCxSRpHMgGlSSEFSZoTbBAB8VCy0agAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQxKsJegQIDRAB&ictx=0',
+        'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Kuala+Lumpur+honeymoon+destinations'
+      },
+      {
+        'position': 4,
+        'title': 'Packages',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Kuala+lumpur+destinations+packages&uds=H4sIAAAAAAAA_-Py5uIISEzOTkxPLRaS9C5NzElU8CnNLSgtUnBJLS7JzEssyczPKzYQKlKCSOZAJFOQJBUKoAYY4TYAABWV2Y1oAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQxKsJegQIDhAB&ictx=0',
+        'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Kuala+lumpur+destinations+packages'
+      },
+      {
+        'position': 5,
+        'title': 'Holiday',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Holiday+destinations+near+Kuala+Lumpur&uds=H4sIAAAAAAAA_-Py42L3yM_JTEmsFJL0Lk3MSVTwKc0tKC1ScEktLsnMSyzJzM8rNmAsUoOqUkhBElfIS00sUkDWZoTbEACr4Z9VawAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQxKsJegQIdRAB&ictx=0',
+        'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Holiday+destinations+near+Kuala+Lumpur'
+      },
+      {
+        'position': 6,
+        'title': 'News',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Kuala+Lumpur+Destinations&tbm=nws&source=lnms&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ0pQJegUIhQEQAQ',
+        'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Kuala+Lumpur+Destinations&tbm=nws'
+      },
+      {
+        'position': 7,
+        'title': 'Shopping',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Kuala+Lumpur+Destinations&tbm=shop&source=lnms&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ0pQJegUIhAEQAQ',
+        'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Kuala+Lumpur+Destinations'
+      },
+      {
+        'position': 8,
+        'title': 'AirAsia',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=AirAsia+destinations+from+Kuala+Lumpur&uds=H4sIAAAAAAAA_-Py42J3zCxyLM5MFJL0Lk3MSVTwKc0tKC1ScEktLsnMSyzJzM8rNmAsUoOqUkhBEldIK8rPVUDWZoTbEAAAsPIVawAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQxKsJegUIggEQAQ&ictx=0',
+        'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=AirAsia+destinations+from+Kuala+Lumpur'
+      },
+      {
+        'position': 9,
+        'title': 'Batik Air',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Batik+Air+destinations+from+Kuala+Lumpur&uds=H4sIAAAAAAAA_-MK4uJ0SizJzFZwzCwSkvQuTcxJVPApzS0oLVJwSS0uycwDSubnFRswFmnA1SmkIMkopBXl5yogazTCbQwA2oA8-m8AAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQxKsJegQIfRAB&ictx=0',
+        'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Batik+Air+destinations+from+Kuala+Lumpur'
+      }
+    ],
+    'organic_results_state': 'Results for exact spelling'
+  },
+  'top_sights': {
+    'sights': [
+      {
+        'title': 'Petronas Twin Towers',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Petronas+Twin+Towers&stick=H4sIAAAAAAAAAONgFuLQz9U3MLFMMVQCs4orc6q0FLOTrfRz8pMTSzLz8-AMq8SSkqLEZBCzeBGrSEBqSVF-XmKxQkh5Zp5CSH55alExAJIg7P9QAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ2coHegQIEhAB',
+        'description': 'Historical landmark',
+        'price': '$20.72',
+        'extracted_price': 20.72,
+        'thumbnail': 'https://serpapi.com/searches/65481c5beb690fdc83495ab3/images/2a5fa96ce0441bd000c508e7824bd97affbb11c1c67fc9563aac095a25f64e30.jpeg'
+      },
+      {
+        'title': 'Menara Kuala Lumpur',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Menara+Kuala+Lumpur&stick=H4sIAAAAAAAAAONgFuLQz9U3MLFMMVTiBLGM8qqyLbQUs5Ot9HPykxNLMvPz4AyrxJKSosRkELN4Eauwb2peYlGigndpYk6igk9pbkFpEQBJMaOuUAAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ2coHegQIExAB',
+        'description': 'Landmark',
+        'thumbnail': 'https://serpapi.com/searches/65481c5beb690fdc83495ab3/images/2a5fa96ce0441bd000c508e7824bd97a1c68157ea17d3f978831110b64e88d15.jpeg'
+      },
+      {
+        'title': 'KLCC Park',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=KLCC+Park&stick=H4sIAAAAAAAAAONgFuLQz9U3MLFMMVTiArFMc4tMjA21FLOTrfRz8pMTSzLz8-AMq8SSkqLEZBCzeBErp7ePs7NCQGJRNgB-ACH0RwAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ2coHegQIERAB',
+        'description': 'Park',
+        'price': 'Free',
+        'thumbnail': 'https://serpapi.com/searches/65481c5beb690fdc83495ab3/images/2a5fa96ce0441bd000c508e7824bd97a5a160868ce2902048d6af44350cd9a9d.jpeg'
+      },
+      {
+        'title': 'Pavilion Kuala Lumpur',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Pavilion+Kuala+Lumpur&stick=H4sIAAAAAAAAAONgFuLQz9U3MLFMMVTiArGMioqLSoq1FLOTrfRz8pMTSzLz8-AMq8SSkqLEZBCzeBGraEBiWWYOkK3gXZqYk6jgU5pbUFoEAObwfTZTAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ2coHegUIgwEQAQ',
+        'description': 'Shopping mall',
+        'thumbnail': 'https://lh5.googleusercontent.com/p/AF1QipMuSy_AMvqtGnRx4O80A4qWb3A7Tv1k8mLgSEvz=w204-h114-n-k-no'
+      },
+      {
+        'title': 'KL Bird Park',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=KL+Bird+Park&stick=H4sIAAAAAAAAAONgFuLQz9U3MLFMMVTiArGMzFKysou0FLOTrfRz8pMTSzLz8-AMq8SSkqLEZBCzeBErj7ePglNmUYpCQGJRNgDOi5WSSgAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ2coHegUIgQEQAQ',
+        'description': 'Animal park',
+        'price': '$17.97',
+        'extracted_price': 17.97,
+        'thumbnail': 'https://lh5.googleusercontent.com/p/AF1QipOsD1nTb_sOqdzAwDDtSgaeDIVIXxr1jPPi3Hfh=w204-h114-n-k-no'
+      },
+      {
+        'title': 'Merdeka Square',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Merdeka+Square&stick=H4sIAAAAAAAAAONgFuLQz9U3MLFMMVTiBLFMy3OrirQUs5Ot9HPykxNLMvPz4AyrxJKSosRkELN4ESufb2pRSmp2okJwYWliUSoAi8SNEksAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ2coHegUIgAEQAQ',
+        'description': 'Historical landmark',
+        'price': 'Free',
+        'thumbnail': 'https://lh5.googleusercontent.com/p/AF1QipNDJwNa2WNtNA67LI0bhWFeAQ_NxUK1bHZ5Wg5R=w204-h114-n-k-no'
+      },
+      {
+        'title': 'Thean Hou Temple',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Thean+Hou+Temple&stick=H4sIAAAAAAAAAONgFuLQz9U3MLFMMVTiBLFMq8rLDbQUs5Ot9HPykxNLMvPz4AyrxJKSosRkELN4EatASEZqYp6CR36pQkhqbkFOKgD36uXTTQAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ2coHegQIexAB',
+        'description': 'Buddhist temple',
+        'price': 'Free',
+        'thumbnail': 'https://lh5.googleusercontent.com/p/AF1QipOc1-Z6ntpL5ENC7rUhlqjgkuqcaECzB1OqCJJt=w204-h114-n-k-no'
+      },
+      {
+        'title': 'Islamic Arts Museum Malaysia',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Islamic+Arts+Museum+Malaysia&stick=H4sIAAAAAAAAAONgFuLQz9U3MLFMMVTiArGMUywNK3O0FLOTrfRz8pMTSzLz8-AMq8SSkqLEZBCzeBGrjGdxTmJuZrKCY1FJsYJvaXFqaa6Cb2JOYmVxZiIAPN2HNVoAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ2coHegQIeBAB',
+        'description': 'Art museum',
+        'price': '$4.23',
+        'extracted_price': 4.23,
+        'thumbnail': 'https://lh6.googleusercontent.com/proxy/vbQ4AVg66MT_ohY06rMwE9nvrLk3m9k5ZiUvnh1NuawKh014ZnQzJzbG-dXTnZduoTCqNdG8WNT6d9FD64hjUZ8rzWdoZ64IQo6ZS0a36PfQ_FU1BEnh5VT4ij0QBXy5UjkHIS6_qPU0zaZoJc6qF11LgWNJZ1E=w204-h114-n-k-no'
+      },
+      {
+        'title': 'Perdana Botanical Garden',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Perdana+Botanical+Garden&stick=H4sIAAAAAAAAAONgFuLQz9U3MLFMMVTiArHS082Ni7O1FLOTrfRz8pMTSzLz8-AMq8SSkqLEZBCzeBGrREBqUUpiXqKCU35JYl5mcmKOgntiUUpqHgCcjDzNVgAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ2coHegQIehAB',
+        'description': 'Botanical garden',
+        'price': 'Free',
+        'thumbnail': 'https://lh5.googleusercontent.com/p/AF1QipNVEM_UU-Ex4qIeicVd6VPuCF7A4zW8dYQABlTB=w204-h114-n-k-no'
+      },
+      {
+        'title': 'Central Market',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Central+Market&stick=H4sIAAAAAAAAAONgFuLQz9U3MLFMMVTiBLFSKlOyjLQUs5Ot9HPykxNLMvPz4AyrxJKSosRkELN4ESufc2oekJuj4JtYlJ1aAgBJV9_4SwAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ2coHegQIfhAB',
+        'description': 'Shopping mall',
+        'price': 'Free',
+        'thumbnail': 'https://lh5.googleusercontent.com/p/AF1QipMKIAQ55aGBew_CEb_msZVL1_8ln27gIo6meEzi=w204-h114-n-k-no'
+      },
+      {
+        'title': 'National Mosque of Malaysia',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=National+Mosque+of+Malaysia&stick=H4sIAAAAAAAAAONgFuLQz9U3MLFMMVTiBLFMy_OSTbUUs5Ot9HPykxNLMvPz4AyrxJKSosRkELN4Eau0H1gwMUfBN7-4sDRVIT9NwTcxJ7GyODMRADJL1kpYAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ2coHegQIfBAB',
+        'description': 'Mosque',
+        'price': 'Free',
+        'thumbnail': 'https://lh5.googleusercontent.com/p/AF1QipNfP9Lb7vzqRyJXLPMA4rvw03UlF15XzeDFnd4n=w204-h114-n-k-no'
+      },
+      {
+        'title': 'Suria KLCC',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Suria+KLCC&stick=H4sIAAAAAAAAAONgFuLQz9U3MLFMMVTiBLPKinPjtRSzk630c_KTE0sy8_PgDKvEkpKixGQQs3gRK1dwaVFmooK3j7MzAM6Y2o9HAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ2coHegQIdhAB',
+        'description': 'Shopping mall',
+        'thumbnail': 'https://lh5.googleusercontent.com/p/AF1QipNpFK5OmfpHcMxDcFGSqsiL6VWFlI2M4nCNvYpP=w204-h114-n-k-no'
+      },
+      {
+        'title': 'Sultan Abdul Samad Mosque',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Sultan+Abdul+Samad+Mosque&stick=H4sIAAAAAAAAAONgFuLQz9U3MLFMMVTiBLHMkpKNc7QUs5Ot9HPykxNLMvPz4AyrxJKSosRkELN4EatkcGlOSWKegmNSSmmOQnBibmKKgm9-cWFpKgAcid29VgAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ2coHegQIfxAB',
+        'description': 'Mosque',
+        'price': 'Free',
+        'thumbnail': 'https://lh5.googleusercontent.com/p/AF1QipMe84wwWk4tGBFgO0NomDRey2i42LY5zR6twdU9=w204-h114-n-k-no'
+      },
+      {
+        'title': 'Sunway Lagoon',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Sunway+Lagoon&stick=H4sIAAAAAAAAAONgFuLQz9U3MLFMMVTiBLFSTE0rSrQUs5Ot9HPykxNLMvPz4AyrxJKSosRkELN4EStvcGleeWKlgk9ien5-HgA2WaY6SgAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ2coHegQIdxAB',
+        'description': 'Theme park',
+        'price': '$46.52',
+        'extracted_price': 46.52,
+        'thumbnail': 'https://lh5.googleusercontent.com/p/AF1QipOZbvHkj9NIR1uCXSGQa6IxYdG9XxAyEQ8ij_b0=w204-h114-n-k-no'
+      },
+      {
+        'title': 'Batu Caves',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Batu+Caves&stick=H4sIAAAAAAAAAONgFuLQz9U3MLFMMVQCs4orCyy1FLOTrfRz8pMTSzLz8-AMq8SSkqLEZBCzeBErl1NiSamCc2JZajEAQ9TC5EYAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ2coHegQIeRAB',
+        'description': 'Shrine',
+        'price': 'Free',
+        'thumbnail': 'https://lh5.googleusercontent.com/p/AF1QipOHnu4fwHyiQbF3eZ3C4ElToREaMk5QfT1iZ4WR=w204-h114-n-k-no'
+      }
+    ]
+  },
+  'shopping_results': [
+    {
+      'position': 1,
+      'block_position': 'top',
+      'title': 'Tickets to KL Tower',
+      'price': '$2',
+      'extracted_price': 2,
+      'link': 'https://www.headout.com/kl-tower-tickets',
+      'source': 'Headout',
+      'rating': 4.1,
+      'reviews': 1300.0,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS39_cLehcxz8eELnz1toLbsbxRdzfML3eX3bcI5d_xyiqW&s=4',
+      'extensions': [
+        'Free cancellation'
+      ]
+    },
+    {
+      'position': 2,
+      'block_position': 'top',
+      'title': 'Putrajaya Visit and Lake Cruise: Tour from Kuala Lumpur',
+      'price': '$57',
+      'extracted_price': 57,
+      'link': 'https://www.getyourguide.com/',
+      'source': 'GetYourGuide',
+      'rating': 4.1,
+      'reviews': 8,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn1nyCsTsxric723xyv35U87tvQld5TmMqlPX_onT-blWM&s=4',
+      'extensions': [
+        'Free cancellation'
+      ]
+    },
+    {
+      'position': 3,
+      'block_position': 'top',
+      'title': 'From Kuala Lumpur: Colmar Tropicale and Batu Caves Day Trip',
+      'price': '$70',
+      'extracted_price': 70,
+      'link': 'https://www.getyourguide.com/',
+      'source': 'GetYourGuide',
+      'rating': 4.6,
+      'reviews': 14,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbjKVERQOmGy_qqcWXygvl3S9iqWqLAHsa0gL8XrwXh_-V&s=4',
+      'extensions': [
+        'Free cancellation'
+      ]
+    },
+    {
+      'position': 4,
+      'block_position': 'top',
+      'title': 'Kuala Lumpur by Night and Malaysian Food Tour',
+      'price': '$32',
+      'extracted_price': 32,
+      'link': 'https://www.getyourguide.com/',
+      'source': 'GetYourGuide',
+      'rating': 4.0,
+      'reviews': 7,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9RWi3Bg779-5JFOuxlHmgCw0fMCmz1xVWTb1eQ10h1vl1&s=4',
+      'extensions': [
+        'Free cancellation'
+      ]
+    },
+    {
+      'position': 5,
+      'block_position': 'top',
+      'title': 'From Kuala Lumpur: Genting Highlands & Batu Caves Day Trip',
+      'price': '$32',
+      'extracted_price': 32,
+      'link': 'https://www.getyourguide.com/',
+      'source': 'GetYourGuide',
+      'rating': 4.6,
+      'reviews': 483,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREGvJB0c4DzTgn0BnvNwHzkl-Ahd_f8-Am0ARLafw_zPO7&s=4',
+      'extensions': [
+        'Free cancellation'
+      ]
+    },
+    {
+      'position': 6,
+      'block_position': 'top',
+      'title': 'Kuala Lumpur Full-Day Tour with 2-Way Airport Transfers',
+      'price': '$137',
+      'extracted_price': 137,
+      'link': 'https://www.getyourguide.com/',
+      'source': 'GetYourGuide',
+      'rating': 4.4,
+      'reviews': 7,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDIF1KDvHlEuZvDAudpZfCjTLp-YExyEuAZEiflZT51nT4&s=4',
+      'extensions': [
+        'Free cancellation'
+      ]
+    },
+    {
+      'position': 7,
+      'block_position': 'top',
+      'title': 'Kuala Lumpur City Tour plus Batu Caves, Hot Springs & Waterfalls',
+      'price': '$87',
+      'extracted_price': 87,
+      'link': 'https://www.tripadvisor.com/',
+      'source': 'Tripadvisor',
+      'rating': 4.0,
+      'reviews': 1,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8nH_ZySmLe2a26VIoaa-sMshzaulYmc2CCK4aedO9DcGt&s=4',
+      'extensions': [
+        'Free cancellation'
+      ]
+    },
+    {
+      'position': 8,
+      'block_position': 'top',
+      'title': 'Kuala Lumpur Half Day City Tour (Private Tour)',
+      'price': '$20',
+      'extracted_price': 20,
+      'link': 'https://www.tripadvisor.com/',
+      'source': 'Tripadvisor',
+      'rating': 5.0,
+      'reviews': 39,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSQXwHstxBiO-wSLOhnz8uRITrJYhU-PnRYxqyKpIu6ISn&s=4',
+      'extensions': [
+        'Free cancellation'
+      ]
+    },
+    {
+      'position': 9,
+      'block_position': 'top',
+      'title': 'City Sightseeing: 24/48-Hr Hop-On Hop-Off Tour of Kuala Lumpur',
+      'price': '$6',
+      'extracted_price': 6,
+      'link': 'https://www.headout.com/hop-on-hop-off-tours',
+      'source': 'Headout',
+      'rating': 3.4,
+      'reviews': 150,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0MLGKLBPxkxQjua_GS1bAQ2tQZqz8tdWKBQd7Sr4iZn3U&s=4'
+    },
+    {
+      'position': 10,
+      'block_position': 'top',
+      'title': 'COMBO: KL Hop-on Hop-off Sightseeing Bus Tour + Aquaria KLCC',
+      'price': '$16',
+      'extracted_price': 16,
+      'link': 'https://www.headout.com/aquaria-klcc-tickets',
+      'source': 'Headout',
+      'rating': 3.6,
+      'reviews': 7,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSyRfl11tlKrgkBLrArnoz4rDuRxNlnFCdsI9fPgpHOdpm&s=4'
+    },
+    {
+      'position': 11,
+      'block_position': 'top',
+      'title': 'The 10 Tastings of Kuala Lumpur With Locals: Private Street Food Tour',
+      'price': '$59',
+      'extracted_price': 59,
+      'link': 'https://www.tripadvisor.com/',
+      'source': 'Tripadvisor',
+      'rating': 5.0,
+      'reviews': 105,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNI16VGsUvqTKQdXdQeVN8peYc47v-Y2HzyYBW-7mYOe51&s=4',
+      'extensions': [
+        'Free cancellation'
+      ]
+    },
+    {
+      'position': 12,
+      'block_position': 'top',
+      'title': 'Local Evening Food Tour in Kuala Lumpur',
+      'price': '$35',
+      'extracted_price': 35,
+      'link': 'https://www.klook.com/en-us/activity',
+      'source': 'Klook',
+      'rating': 5.0,
+      'reviews': 2,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh-YOOFT5QsCCm8R_zzLBnxtimWcD2vxpGcuEG_vKLqq9n&s=4',
+      'extensions': [
+        'Free cancellation'
+      ]
+    },
+    {
+      'position': 13,
+      'block_position': 'top',
+      'title': 'Private Kuala Lumpur City Tour With Petronas Tower, Local Dinner & Dance Perform',
+      'price': '$125',
+      'extracted_price': 125,
+      'link': 'https://www.tripadvisor.com/',
+      'source': 'Tripadvisor',
+      'rating': 5.0,
+      'reviews': 4,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu1Cyz1ddZiDl2or2-NJ49SsI2t70NJjS62P6eA9x-ujtl&s=4',
+      'extensions': [
+        'Free cancellation'
+      ]
+    },
+    {
+      'position': 14,
+      'block_position': 'top',
+      'title': 'Entry Tickets to Kuala Lumpur Bird Park',
+      'price': '$11',
+      'extracted_price': 11,
+      'link': 'https://www.headout.com/kuala-lumpur-bird-park',
+      'source': 'Headout',
+      'rating': 4.6,
+      'reviews': 9,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvxJosM4cWmSvur9bNDAXXQY302pdqiBXzy9aQ3ZPrdgzD&s=4',
+      'extensions': [
+        'Entry included'
+      ]
+    },
+    {
+      'position': 15,
+      'block_position': 'top',
+      'title': 'Taman Negara Private Day Tour from Kuala Lumpur',
+      'price': '$151',
+      'extracted_price': 151,
+      'link': 'https://www.klook.com/en-us/activity',
+      'source': 'Klook',
+      'rating': 5.0,
+      'reviews': 2,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-7dbMa_jvM5BQQpb4pVROT_09BPFe20oMLzo5tXqGmYBY&s=4',
+      'extensions': [
+        'Free cancellation'
+      ]
+    },
+    {
+      'position': 16,
+      'block_position': 'top',
+      'title': '2-Hour Hop-On Hop-Off Bus Night Tour of Kuala Lumpur',
+      'price': '$7',
+      'extracted_price': 7,
+      'link': 'https://www.headout.com/hop-on-hop-off-tours',
+      'source': 'Headout',
+      'rating': 4.1,
+      'reviews': 477,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ495zWqIYmiUzkoM_bKbYWjXIi-C3FSRX4a6b7euLCvo0u&s=4'
+    },
+    {
+      'position': 17,
+      'block_position': 'top',
+      'title': 'Amazing Taman Negara Day Trip from Kuala Lumpur Including Lunch',
+      'price': '$170',
+      'extracted_price': 170,
+      'link': 'https://www.tripadvisor.com/',
+      'source': 'Tripadvisor',
+      'rating': 4.5,
+      'reviews': 11,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmFQ3GLuUKtytZ6tpkTIWTNq7qttM2V7uofwZo5ISHLzFZ&s=4',
+      'extensions': [
+        'Free cancellation'
+      ]
+    },
+    {
+      'position': 18,
+      'block_position': 'top',
+      'title': 'Private Kuala Lumpur City Tour Including Putrajaya & Batu Caves',
+      'price': '$97',
+      'extracted_price': 97,
+      'link': 'https://www.agoda.com/activities',
+      'source': 'Agoda',
+      'rating': 4.5,
+      'reviews': 2,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToffE2sQ1oOT3RIjtB_IE72386BXkzh5aMqQeR1jkTWlfJ&s=4'
+    },
+    {
+      'position': 19,
+      'block_position': 'top',
+      'title': 'Private Guided Kuala Lumpur Day Trip With Skip-the-Line Petronas Twin Towers',
+      'price': '$133',
+      'extracted_price': 133,
+      'link': 'https://www.agoda.com/activities',
+      'source': 'Agoda',
+      'rating': 4.6,
+      'reviews': 80,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyRnQzEl2kV9hCqpfpDmwN1v0S_QDHdhbWSv73K3_obx83&s=4',
+      'extensions': [
+        'Entry included'
+      ]
+    },
+    {
+      'position': 20,
+      'block_position': 'top',
+      'title': 'Kuala Lumpur The Kampung Life Day Tour',
+      'price': '$232',
+      'extracted_price': 232,
+      'link': 'https://www.klook.com/en-us/activity',
+      'source': 'Klook',
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQozPMUv0LeUWnjK9Y0wH7HyqMzZZQd5PtmxcFOESM1_BMO&s=4'
+    },
+    {
+      'position': 21,
+      'block_position': 'top',
+      'title': 'Hauntu Immersive Experience in Kuala Lumpur',
+      'price': '$13',
+      'extracted_price': 13,
+      'link': 'https://www.klook.com/en-us/activity',
+      'source': 'Klook',
+      'rating': 4.8,
+      'reviews': 231,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAxQ9dzq6gWZFoiat0Pg8ADcDWOBEVrvxvLAN2ADTh5E2a&s=4',
+      'extensions': [
+        'Free cancellation'
+      ]
+    },
+    {
+      'position': 22,
+      'block_position': 'top',
+      'title': 'Religion Culture and Heritage Half Day Tour in Kuala Lumpur',
+      'price': '$35',
+      'extracted_price': 35,
+      'link': 'https://www.klook.com/en-us/activity',
+      'source': 'Klook',
+      'rating': 4.2,
+      'reviews': 21,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcLURTeZu9Efv-pu34UCymppph8bnE0OnR36Ow9XWkucbj&s=4',
+      'extensions': [
+        'Free cancellation'
+      ]
+    },
+    {
+      'position': 23,
+      'block_position': 'top',
+      'title': 'Private Tour Kuala Lumpur with Petronas Twin Towers Observation Deck & Batu Cave',
+      'price': '$134',
+      'extracted_price': 134,
+      'link': 'https://www.agoda.com/activities',
+      'source': 'Agoda',
+      'rating': 4.8,
+      'reviews': 381,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfrQ1rCpONW-7nOThfpafR-fdWB-M6DSiOceAi25Uy15nx&s=4'
+    },
+    {
+      'position': 24,
+      'block_position': 'top',
+      'title': 'Private Tour : Orang Utan Island & Perak Cave Temple from Kuala Lumpur',
+      'price': '$34',
+      'extracted_price': 34,
+      'link': 'https://www.agoda.com/activities',
+      'source': 'Agoda',
+      'rating': 4.8,
+      'reviews': 4,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSURhG62cTriU4c6sRTyzvwQlrvdHTc4vSyMlFa9Zwum9Oy&s=4'
+    },
+    {
+      'position': 25,
+      'block_position': 'top',
+      'title': 'Genting Highlands & Batu Caves: Day Trip from Kuala Lumpur',
+      'price': '$53',
+      'extracted_price': 53,
+      'link': 'https://www.tiqets.com/en',
+      'source': 'Tiqets',
+      'rating': 4.6,
+      'reviews': 17,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuVv96pq7ou8Pc4wPO0HlU_I-PVkzC4fh9te-sh4-a5wK3&s=4',
+      'extensions': [
+        'Free cancellation'
+      ]
+    },
+    {
+      'position': 26,
+      'block_position': 'top',
+      'title': 'KL City of Lights: Night-Time Tour',
+      'price': '$14',
+      'extracted_price': 14,
+      'link': 'https://www.tiqets.com/en',
+      'source': 'Tiqets',
+      'rating': 4.0,
+      'reviews': 5,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaujo4xUfiNgsIW68uzQA18f9vdfvJBeMcty0rvwq30Rno&s=4',
+      'extensions': [
+        'Free cancellation'
+      ]
+    },
+    {
+      'position': 27,
+      'block_position': 'top',
+      'title': 'Petronas Twin Towers skip-the-line and top ten wonders private tour from Kuala Lumpur',
+      'price': '$157',
+      'extracted_price': 157,
+      'link': 'https://gc.musement.com/en/kuala-lumpur',
+      'source': 'Musement',
+      'rating': 5.0,
+      'reviews': 1,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOj2pbgyqYS2vLeyCTdPnwm73c22c3GHOyJrLTQhOBfRW1&s=4'
+    },
+    {
+      'position': 28,
+      'block_position': 'top',
+      'title': 'Kuala Lumpur private tour with Petronas Twin Towers and Batu Caves',
+      'price': '$75',
+      'extracted_price': 75,
+      'link': 'https://gc.musement.com/en/kuala-lumpur',
+      'source': 'Musement',
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm2YO-0-LcyyMgqUE7lP-AHtRHSobzXeVSTjVHAbKNShQu&s=4'
+    },
+    {
+      'position': 29,
+      'block_position': 'top',
+      'title': 'Guided tour of Kuala Lumpur with Batu Caves and fireflies village',
+      'price': '$75',
+      'extracted_price': 75,
+      'link': 'https://gc.musement.com/en/kuala-lumpur',
+      'source': 'Musement',
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnyC871nRlFCws3mxrhqhiAOmwH_O_NQiOs5Pb9CNHgbNq&s=3'
+    },
+    {
+      'position': 30,
+      'block_position': 'top',
+      'title': 'The 10 Tastings of Kuala Lumpur With Locals: Private Street Food Tour',
+      'price': '$86',
+      'extracted_price': 86,
+      'link': 'https://www.agoda.com/activities',
+      'source': 'Agoda',
+      'rating': 4.8,
+      'reviews': 144,
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiwOW1HWnLRnSEAvWRjfpPGRoYzE6s7-LBNSK9OIomFaEX&s=4',
+      'extensions': [
+        'Entry included'
+      ]
+    }
+  ],
+  'knowledge_graph': {
+    'title': 'Federal Territory of Kuala Lumpur',
+    'type': 'Capital of Malaysia',
+    'kgmid': '/m/049d1',
+    'knowledge_graph_search_link': 'https://www.google.com/search?kgmid=/m/049d1&hl=en-US&hl=Federal Territory of Kuala Lumpur',
+    'serpapi_knowledge_graph_search_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&hl=en-US&kgmid=%2Fm%2F049d1&q=Kuala+Lumpur+Destinations',
+    'tabs': [
+      {
+        'text': 'Honeymoon',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Kuala+Lumpur+honeymoon+destinations&uds=H4sIAAAAAAAA_-Py5eL0yM9LrczNz88TkvQuTcxJVPApzS0oLVJwSS0uycxLLMnMzys2YCxSRpHMgGlSSEFSZoTbBAB8VCy0agAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQxKsJegQIDRAB&ictx=0',
+        'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Kuala+Lumpur+honeymoon+destinations'
+      },
+      {
+        'text': 'Packages',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Kuala+lumpur+destinations+packages&uds=H4sIAAAAAAAA_-Py5uIISEzOTkxPLRaS9C5NzElU8CnNLSgtUnBJLS7JzEssyczPKzYQKlKCSOZAJFOQJBUKoAYY4TYAABWV2Y1oAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQxKsJegQIDhAB&ictx=0',
+        'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Kuala+lumpur+destinations+packages'
+      },
+      {
+        'text': 'Holiday',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Holiday+destinations+near+Kuala+Lumpur&uds=H4sIAAAAAAAA_-Py42L3yM_JTEmsFJL0Lk3MSVTwKc0tKC1ScEktLsnMSyzJzM8rNmAsUoOqUkhBElfIS00sUkDWZoTbEACr4Z9VawAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQxKsJegQIdRAB&ictx=0',
+        'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Holiday+destinations+near+Kuala+Lumpur'
+      },
+      {
+        'text': 'AirAsia',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=AirAsia+destinations+from+Kuala+Lumpur&uds=H4sIAAAAAAAA_-Py42J3zCxyLM5MFJL0Lk3MSVTwKc0tKC1ScEktLsnMSyzJzM8rNmAsUoOqUkhBEldIK8rPVUDWZoTbEAAAsPIVawAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQxKsJegUIggEQAQ&ictx=0',
+        'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=AirAsia+destinations+from+Kuala+Lumpur'
+      },
+      {
+        'text': 'Batik Air',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=Batik+Air+destinations+from+Kuala+Lumpur&uds=H4sIAAAAAAAA_-MK4uJ0SizJzFZwzCwSkvQuTcxJVPApzS0oLVJwSS0uycwDSubnFRswFmnA1SmkIMkopBXl5yogazTCbQwA2oA8-m8AAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQxKsJegQIfRAB&ictx=0',
+        'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Batik+Air+destinations+from+Kuala+Lumpur'
+      }
+    ],
+    'header_images': [
+      {
+        'image': 'https://serpapi.com/searches/65481c5beb690fdc83495ab3/images/c2a4f611a814a0162229bc8674cd1904db56cfeda04195f13a499d7fc4004ac64c3d5ec4c7ef9dcb.jpeg',
+        'source': 'https://www.britannica.com/place/Kuala-Lumpur'
+      }
+    ],
+    'place_id': 'ChIJ0-cIvSo2zDERmWzYQPUfLiM',
+    'description': 'Kuala Lumpur is the capital of Malaysia. Its modern skyline is dominated by the 451m-tall Petronas Twin Towers, a pair of glass-and-steel-clad skyscrapers with Islamic motifs. The towers also offer a public skybridge and observation deck. The city is also home to British colonial-era landmarks such as the Kuala Lumpur Railway Station and the Sultan Abdul Samad Building. ― Google',
+    'local_map': {
+      'image': 'https://serpapi.com/searches/65481c5beb690fdc83495ab3/images/c2a4f611a814a0162229bc8674cd19043b1d2979e028b8eb0f2f18675d3e1d78.gif',
+      'link': 'https://www.google.com/maps/place/Kuala+Lumpur,+Federal+Territory+of+Kuala+Lumpur,+Malaysia/data=!4m2!3m1!1s0x31cc362abd08e7d3:0x232e1ff540d86c99?sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ8gF6BAhBEAA'
+    },
+    'age': 'About 166 years',
+    'age_links': [
+      {
+        'text': 'Age',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=kuala+lumpur+age&stick=H4sIAAAAAAAAAOPgE-LQz9U3MLFMMdSSzE620s_JT04syczP00_OLKksyS_Ps0pMT13EKpBdmpiTqJBTmltQWqQAFAIAonwaBjoAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ6BMoAHoECEsQAg'
+      }
+    ],
+    'founded': '1857',
+    'founded_links': [
+      {
+        'text': 'Founded',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=kuala+lumpur+founded&stick=H4sIAAAAAAAAAOPgE-LQz9U3MLFMMdRSzk620s_JT04syczP009JLElNiYdxrdLyS_NSUlMWsYpklybmJCrklOYWlBYpQIUBef1qpUgAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ6BMoAHoECEoQAg'
+      }
+    ],
+    'area': '93.82 mi²',
+    'area_links': [
+      {
+        'text': 'Area',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=kuala+lumpur+area&stick=H4sIAAAAAAAAAOPgE-LQz9U3MLFMMdSSyk620s_JT04syczPgzOsEotSExexCmaXJuYkKuSU5haUFimAxACh98S9PAAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ6BMoAHoECEkQAg'
+      }
+    ],
+    'elevation': '207′',
+    'elevation_links': [
+      {
+        'text': 'Elevation',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=kuala+lumpur+elevation&stick=H4sIAAAAAAAAAOPgE-LQz9U3MLFMMdSSz0620s_JT04syczPgzOsUnNSy8CsRaxi2aWJOYkKOaW5BaVFCnAJAI9oXTZGAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ6BMoAHoECE0QAg'
+      }
+    ],
+    'population': '1.808 million (2017)',
+    'population_links': [
+      {
+        'text': 'Population',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=kuala+lumpur+population&stick=H4sIAAAAAAAAAOPgE-LQz9U3MLFMMdQyS0m20s9JTU9MroxPTixKscrJT04syczPiy8uAdLFJZnJiTnxRanpIKGC_ILSHLDsIlbx7NLEnESFnNLcgtIiBYQMAFxaFRxeAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ6BMoAHoECE4QAg'
+      },
+      {
+        'text': 'United Nations',
+        'link': 'http://data.un.org/Data.aspx?d=POP&amp;f=tableCode%3A240'
+      }
+    ],
+    'metro_population': '7,564,000',
+    'metro_population_links': [
+      {
+        'text': 'Metro population',
+        'link': 'https://www.google.com/search?sca_esv=579673275&q=kuala+lumpur+metro+population&stick=H4sIAAAAAAAAAOPgE-LQz9U3MLFMMdSSyyi30k_Oz8lJTS7JzM_Tz8lPTgQxiq1yU0uK8hexymaXJuYkKuSU5haUFimABRUK8gtKc8DKAPkQnvFMAAAA&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ6BMoAHoECFAQAg'
+      }
+    ]
+  },
+  'inline_videos': [
+    {
+      'position': 1,
+      'title': 'Where you should go in Kuala Lumpur, Malaysia!',
+      'link': 'https://www.google.com#',
+      'thumbnail': 'https://i.ytimg.com/vi/IFh7hqntlxQ/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3n82czL2Z4zH-XvMypqSSB5axTaKA',
+      'platform': 'YouTube'
+    },
+    {
+      'position': 2,
+      'title': 'Complete guide to visiting Kuala Lumpur - where to stay ...',
+      'link': 'https://www.tiktok.com/@montanadarby/video/7222662641880190213?lang=en',
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGDtFb_9C9iNCT5TKK-rhro9zX5H6EBLpndVZ-mXSB3ueT&s',
+      'platform': 'TikTok'
+    },
+    {
+      'position': 3,
+      'title': '6 places you must visit in KUALA LUMPUR | A quick travel ...',
+      'link': 'https://www.google.com#',
+      'thumbnail': 'https://i.ytimg.com/vi/VLYsH_YswSA/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mnozP-Bo6JrWyjH4SdTL7Dz0lBZg',
+      'platform': 'YouTube'
+    }
+  ],
+  'related_questions': [
+    {
+      'question': 'What are Kuala Lumpur famous for?',
+      'title': 'What is Kuala Lumpur Most Famous For?',
+      'link': 'https://www.hotels.com/go/malaysia/best-things-to-do-kuala-lumpur',
+      'list': [
+        'Petronas Twin Towers.',
+        'Menara Kuala Lumpur.',
+        'Chinatown.',
+        'Batu Caves.',
+        'National Mosque of Malaysia.',
+        'Sultan Abdul Samad Building.',
+        'Sunway Lagoon.',
+        'Jalan Alor.'
+      ],
+      'displayed_link': 'https://www.hotels.com › malaysia › best-things-to-do...',
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLsG2sZqv4pIfWBXNnVGYrHmLkVrgGPvgyweUj54Xu0A&s',
+      'next_page_token': 'eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJURTl1Y0ZsVlgwcDNOMDFvVTNWdWN6SlFTMUEwTUVRM2RuazRNMWxWTTJjMlJXTjZabWhLVmtsSVEwOU9TME5uUlRKMU5VOUxaM0ZzYWpkRmQybEdlUzF3Y2pOaGIzRndNak50RWhkWWVIaEpXbVY1YVVkYVpXVnhkSE5RTTJKMU9ESkJZeG9pUVVwM2F5MDRaRkZQYWpRNGFtVndYMlkyZUV4cVZsbHdXVVJTVUhOWWNXUk5RUSIsImZjdiI6IjMiLCJlaSI6Ilh4eElaZXlpR1plZXF0c1AzYnU4MkFjIiwicWMiOiJDaGxyZFdGc1lTQnNkVzF3ZFhJZ1pHVnpkR2x1WVhScGIyNXpFQUI5TnFvS1B3IiwicXVlc3Rpb24iOiJXaGF0IGFyZSBLdWFsYSBMdW1wdXIgZmFtb3VzIGZvcj8iLCJsayI6IkdpQjNhR0YwSUdGeVpTQnJkV0ZzWVNCc2RXMXdkWElnWm1GdGIzVnpJR1p2Y2ciLCJicyI6ImMtTlM0MUlNejBnc1VVZ3NTbFh3TGszTVNWVHdLYzB0S0MxU1NFdk16Uzh0VmtqTEw3S1hlS0RHcGM2bDVGbU1xaUk5UHo4RkpLOVFrbDlhbEZsY1Vtd3Y4YUdPeTVoTEQyeGdackZDU1VhcVFsNXBibEpxa1lJaFRKRkNjVUUtVURKUHdSZG9VbVZ4WnFLOXhIMFRMazB1RllfOGNxQWFvSFJxWG9xQ3NVSUtVQktrRE5sR2U0azcxZ0tNQUEiLCJpZCI6ImZjXzYifQ==',
+      'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJURTl1Y0ZsVlgwcDNOMDFvVTNWdWN6SlFTMUEwTUVRM2RuazRNMWxWTTJjMlJXTjZabWhLVmtsSVEwOU9TME5uUlRKMU5VOUxaM0ZzYWpkRmQybEdlUzF3Y2pOaGIzRndNak50RWhkWWVIaEpXbVY1YVVkYVpXVnhkSE5RTTJKMU9ESkJZeG9pUVVwM2F5MDRaRkZQYWpRNGFtVndYMlkyZUV4cVZsbHdXVVJTVUhOWWNXUk5RUSIsImZjdiI6IjMiLCJlaSI6Ilh4eElaZXlpR1plZXF0c1AzYnU4MkFjIiwicWMiOiJDaGxyZFdGc1lTQnNkVzF3ZFhJZ1pHVnpkR2x1WVhScGIyNXpFQUI5TnFvS1B3IiwicXVlc3Rpb24iOiJXaGF0IGFyZSBLdWFsYSBMdW1wdXIgZmFtb3VzIGZvcj8iLCJsayI6IkdpQjNhR0YwSUdGeVpTQnJkV0ZzWVNCc2RXMXdkWElnWm1GdGIzVnpJR1p2Y2ciLCJicyI6ImMtTlM0MUlNejBnc1VVZ3NTbFh3TGszTVNWVHdLYzB0S0MxU1NFdk16Uzh0VmtqTEw3S1hlS0RHcGM2bDVGbU1xaUk5UHo4RkpLOVFrbDlhbEZsY1Vtd3Y4YUdPeTVoTEQyeGdackZDU1VhcVFsNXBibEpxa1lJaFRKRkNjVUUtVURKUHdSZG9VbVZ4WnFLOXhIMFRMazB1RllfOGNxQWFvSFJxWG9xQ3NVSUtVQktrRE5sR2U0azcxZ0tNQUEiLCJpZCI6ImZjXzYifQ%3D%3D'
+    },
+    {
+      'question': 'Is Kuala Lumpur good for tourists?',
+      'snippet': 'Kuala Lumpur, the capital city of Malaysia, is the classic stop on every traveler itinerary around Southeast Asia. Read our budget travel guide on the best things to do in KL, top attractions, tips on what to see, where to stay, how to get around, when to visit, what to pack, and where you should go next. What is this?',
+      'title': 'A Complete Guide to Kuala Lumpur for First-Time Visitors - LaidBack Trip',
+      'link': 'https://www.laidbacktrip.com/posts/kuala-lumpur-things-to-do#:~:text=Kuala%20Lumpur%2C%20the%20capital%20city,What%20is%20this%3F',
+      'displayed_link': 'https://www.laidbacktrip.com › posts › kuala-lumpur-thi...',
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfY3DnMxjI6xXyV4zbijCPv_ohqDw_Ij1UBaTuWTKXHA&s',
+      'next_page_token': 'eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJURTl1Y0ZsVlgwcDNOMDFvVTNWdWN6SlFTMUEwTUVRM2RuazRNMWxWTTJjMlJXTjZabWhLVmtsSVEwOU9TME5uUlRKMU5VOUxaM0ZzYWpkRmQybEdlUzF3Y2pOaGIzRndNak50RWhkWWVIaEpXbVY1YVVkYVpXVnhkSE5RTTJKMU9ESkJZeG9pUVVwM2F5MDRaRkZQYWpRNGFtVndYMlkyZUV4cVZsbHdXVVJTVUhOWWNXUk5RUSIsImZjdiI6IjMiLCJlaSI6Ilh4eElaZXlpR1plZXF0c1AzYnU4MkFjIiwicWMiOiJDaGxyZFdGc1lTQnNkVzF3ZFhJZ1pHVnpkR2x1WVhScGIyNXpFQUI5TnFvS1B3IiwicXVlc3Rpb24iOiJJcyBLdWFsYSBMdW1wdXIgZ29vZCBmb3IgdG91cmlzdHM/IiwibGsiOiJHaUZwY3lCcmRXRnNZU0JzZFcxd2RYSWdaMjl2WkNCbWIzSWdkRzkxY21semRITSIsImJzIjoiYy1OUzQxSU16MGdzVVVnc1NsWHdMazNNU1ZUd0tjMHRLQzFTU0V2TXpTOHRWa2pMTDdLWGVLREdwYzZsNUZtTXFpSTlQejhGSks5UWtsOWFsRmxjVW13djhhR095NWhMRDJ4Z1pyRkNTVWFxUWw1cGJsSnFrWUloVEpGQ2NVRS1VREpQd1Jkb1VtVnhacUs5eEgwVExrMHVGWV84Y3FBYW9IUnFYb3FDc1VJS1VCS2tETmxHZTRrNzFnS01BQSIsImlkIjoiZmNfNiJ9',
+      'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJURTl1Y0ZsVlgwcDNOMDFvVTNWdWN6SlFTMUEwTUVRM2RuazRNMWxWTTJjMlJXTjZabWhLVmtsSVEwOU9TME5uUlRKMU5VOUxaM0ZzYWpkRmQybEdlUzF3Y2pOaGIzRndNak50RWhkWWVIaEpXbVY1YVVkYVpXVnhkSE5RTTJKMU9ESkJZeG9pUVVwM2F5MDRaRkZQYWpRNGFtVndYMlkyZUV4cVZsbHdXVVJTVUhOWWNXUk5RUSIsImZjdiI6IjMiLCJlaSI6Ilh4eElaZXlpR1plZXF0c1AzYnU4MkFjIiwicWMiOiJDaGxyZFdGc1lTQnNkVzF3ZFhJZ1pHVnpkR2x1WVhScGIyNXpFQUI5TnFvS1B3IiwicXVlc3Rpb24iOiJJcyBLdWFsYSBMdW1wdXIgZ29vZCBmb3IgdG91cmlzdHM%2FIiwibGsiOiJHaUZwY3lCcmRXRnNZU0JzZFcxd2RYSWdaMjl2WkNCbWIzSWdkRzkxY21semRITSIsImJzIjoiYy1OUzQxSU16MGdzVVVnc1NsWHdMazNNU1ZUd0tjMHRLQzFTU0V2TXpTOHRWa2pMTDdLWGVLREdwYzZsNUZtTXFpSTlQejhGSks5UWtsOWFsRmxjVW13djhhR095NWhMRDJ4Z1pyRkNTVWFxUWw1cGJsSnFrWUloVEpGQ2NVRS1VREpQd1Jkb1VtVnhacUs5eEgwVExrMHVGWV84Y3FBYW9IUnFYb3FDc1VJS1VCS2tETmxHZTRrNzFnS01BQSIsImlkIjoiZmNfNiJ9'
+    },
+    {
+      'question': 'What is the number 1 tourist spot in Malaysia?',
+      'snippet': "The most iconic Malaysia top tourist attractions include Kuala Lumpur's Petronas Twin Towers, Penang's bridge along with pagodas, temples, mosques, islands, mountains, caves and Borneo's nature reserves. The savvy tourist experiences the cities and natural beauty to enhance their travel experience in Malaysia.",
+      'title': 'Malaysia Top Tourist Attractions - 12Go Asia',
+      'link': 'https://12go.asia/en/malaysia/attractions#:~:text=The%20most%20iconic%20Malaysia%20top,their%20travel%20experience%20in%20Malaysia.',
+      'displayed_link': 'https://12go.asia › malaysia › attractions',
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSmTKqYZdwAG1vYibXW49EBk4Ag-9YO2uvDK9P9Eh1-A&s',
+      'next_page_token': 'eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJURTl1Y0ZsVlgwcDNOMDFvVTNWdWN6SlFTMUEwTUVRM2RuazRNMWxWTTJjMlJXTjZabWhLVmtsSVEwOU9TME5uUlRKMU5VOUxaM0ZzYWpkRmQybEdlUzF3Y2pOaGIzRndNak50RWhkWWVIaEpXbVY1YVVkYVpXVnhkSE5RTTJKMU9ESkJZeG9pUVVwM2F5MDRaRkZQYWpRNGFtVndYMlkyZUV4cVZsbHdXVVJTVUhOWWNXUk5RUSIsImZjdiI6IjMiLCJlaSI6Ilh4eElaZXlpR1plZXF0c1AzYnU4MkFjIiwicWMiOiJDaGxyZFdGc1lTQnNkVzF3ZFhJZ1pHVnpkR2x1WVhScGIyNXpFQUI5TnFvS1B3IiwicXVlc3Rpb24iOiJXaGF0IGlzIHRoZSBudW1iZXIgMSB0b3VyaXN0IHNwb3QgaW4gTWFsYXlzaWE/IiwibGsiOiJHaUZ1ZFcxaVpYSWdNU0IwYjNWeWFYTjBJSE53YjNRZ2FXNGdiV0ZzWVhsemFXRSIsImJzIjoiYy1OUzQxSU16MGdzVVVnc1NsWHdMazNNU1ZUd0tjMHRLQzFTU0V2TXpTOHRWa2pMTDdLWGVLREdwYzZsNUZtTXFpSTlQejhGSks5UWtsOWFsRmxjVW13djhhR095NWhMRDJ4Z1pyRkNTVWFxUWw1cGJsSnFrWUloVEpGQ2NVRS1VREpQd1Jkb1VtVnhacUs5eEgwVExrMHVGWV84Y3FBYW9IUnFYb3FDc1VJS1VCS2tETmxHZTRrNzFnS01BQSIsImlkIjoiZmNfNiJ9',
+      'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJURTl1Y0ZsVlgwcDNOMDFvVTNWdWN6SlFTMUEwTUVRM2RuazRNMWxWTTJjMlJXTjZabWhLVmtsSVEwOU9TME5uUlRKMU5VOUxaM0ZzYWpkRmQybEdlUzF3Y2pOaGIzRndNak50RWhkWWVIaEpXbVY1YVVkYVpXVnhkSE5RTTJKMU9ESkJZeG9pUVVwM2F5MDRaRkZQYWpRNGFtVndYMlkyZUV4cVZsbHdXVVJTVUhOWWNXUk5RUSIsImZjdiI6IjMiLCJlaSI6Ilh4eElaZXlpR1plZXF0c1AzYnU4MkFjIiwicWMiOiJDaGxyZFdGc1lTQnNkVzF3ZFhJZ1pHVnpkR2x1WVhScGIyNXpFQUI5TnFvS1B3IiwicXVlc3Rpb24iOiJXaGF0IGlzIHRoZSBudW1iZXIgMSB0b3VyaXN0IHNwb3QgaW4gTWFsYXlzaWE%2FIiwibGsiOiJHaUZ1ZFcxaVpYSWdNU0IwYjNWeWFYTjBJSE53YjNRZ2FXNGdiV0ZzWVhsemFXRSIsImJzIjoiYy1OUzQxSU16MGdzVVVnc1NsWHdMazNNU1ZUd0tjMHRLQzFTU0V2TXpTOHRWa2pMTDdLWGVLREdwYzZsNUZtTXFpSTlQejhGSks5UWtsOWFsRmxjVW13djhhR095NWhMRDJ4Z1pyRkNTVWFxUWw1cGJsSnFrWUloVEpGQ2NVRS1VREpQd1Jkb1VtVnhacUs5eEgwVExrMHVGWV84Y3FBYW9IUnFYb3FDc1VJS1VCS2tETmxHZTRrNzFnS01BQSIsImlkIjoiZmNfNiJ9'
+    },
+    {
+      'question': 'How to spend 3 days in Kuala Lumpur?',
+      'title': 'Kuala Lumpur: 3 days itinerary – What to visit (map included)',
+      'date': 'Aug 6, 2023',
+      'link': 'https://atickettotakeoff.com/en/kuala-lumpur-3-days-itinerary/',
+      'list': [
+        '» Kwai Chai Hong.',
+        '» Central Market and Petaling Street Market.',
+        '» Sri Mahamariamman Temple.',
+        '» Guan Di Temple.',
+        '» Jamek Mosque.',
+        '» Merdeka and River of Life.',
+        '» National Monument (Tugu Negara)',
+        '» Perdana Botanical Gardens.'
+      ],
+      'displayed_link': 'https://atickettotakeoff.com › kuala-lumpur-3-days-itiner...',
+      'thumbnail': 'https://serpapi.com/searches/65481c5beb690fdc83495ab3/images/e419eb83c8a0845da4ebf87e5249798073d8912ae1f7bf5c2c65c87361f2d67f.png',
+      'next_page_token': 'eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJURTl1Y0ZsVlgwcDNOMDFvVTNWdWN6SlFTMUEwTUVRM2RuazRNMWxWTTJjMlJXTjZabWhLVmtsSVEwOU9TME5uUlRKMU5VOUxaM0ZzYWpkRmQybEdlUzF3Y2pOaGIzRndNak50RWhkWWVIaEpXbVY1YVVkYVpXVnhkSE5RTTJKMU9ESkJZeG9pUVVwM2F5MDRaRkZQYWpRNGFtVndYMlkyZUV4cVZsbHdXVVJTVUhOWWNXUk5RUSIsImZjdiI6IjMiLCJlaSI6Ilh4eElaZXlpR1plZXF0c1AzYnU4MkFjIiwicWMiOiJDaGxyZFdGc1lTQnNkVzF3ZFhJZ1pHVnpkR2x1WVhScGIyNXpFQUI5TnFvS1B3IiwicXVlc3Rpb24iOiJIb3cgdG8gc3BlbmQgMyBkYXlzIGluIEt1YWxhIEx1bXB1cj8iLCJsayI6IkdpTm9iM2NnZEc4Z2MzQmxibVFnTXlCa1lYbHpJR2x1SUd0MVlXeGhJR3gxYlhCMWNnIiwiYnMiOiJjLU5TNDFJTXowZ3NVVWdzU2xYd0xrM01TVlR3S2MwdEtDMVNTRXZNelM4dFZrakxMN0tYZUtER3BjNmw1Rm1NcWlJOVB6OEZKSzlRa2w5YWxGbGNVbXd2OGFHT3k1aExEMnhnWnJGQ1NVYXFRbDVwYmxKcWtZSWhUSkZDY1VFLVVESlB3UmRvVW1WeFpxSzl4SDBUTGswdUZZXzhjcUFhb0hScVhvcUNzVUlLVUJLa0RObEdlNGs3MWdLTUFBIiwiaWQiOiJmY182In0=',
+      'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJURTl1Y0ZsVlgwcDNOMDFvVTNWdWN6SlFTMUEwTUVRM2RuazRNMWxWTTJjMlJXTjZabWhLVmtsSVEwOU9TME5uUlRKMU5VOUxaM0ZzYWpkRmQybEdlUzF3Y2pOaGIzRndNak50RWhkWWVIaEpXbVY1YVVkYVpXVnhkSE5RTTJKMU9ESkJZeG9pUVVwM2F5MDRaRkZQYWpRNGFtVndYMlkyZUV4cVZsbHdXVVJTVUhOWWNXUk5RUSIsImZjdiI6IjMiLCJlaSI6Ilh4eElaZXlpR1plZXF0c1AzYnU4MkFjIiwicWMiOiJDaGxyZFdGc1lTQnNkVzF3ZFhJZ1pHVnpkR2x1WVhScGIyNXpFQUI5TnFvS1B3IiwicXVlc3Rpb24iOiJIb3cgdG8gc3BlbmQgMyBkYXlzIGluIEt1YWxhIEx1bXB1cj8iLCJsayI6IkdpTm9iM2NnZEc4Z2MzQmxibVFnTXlCa1lYbHpJR2x1SUd0MVlXeGhJR3gxYlhCMWNnIiwiYnMiOiJjLU5TNDFJTXowZ3NVVWdzU2xYd0xrM01TVlR3S2MwdEtDMVNTRXZNelM4dFZrakxMN0tYZUtER3BjNmw1Rm1NcWlJOVB6OEZKSzlRa2w5YWxGbGNVbXd2OGFHT3k1aExEMnhnWnJGQ1NVYXFRbDVwYmxKcWtZSWhUSkZDY1VFLVVESlB3UmRvVW1WeFpxSzl4SDBUTGswdUZZXzhjcUFhb0hScVhvcUNzVUlLVUJLa0RObEdlNGs3MWdLTUFBIiwiaWQiOiJmY182In0%3D'
+    }
+  ],
+  'organic_results': [
+    {
+      'position': 1,
+      'title': '19 Best Places To Visit In Kuala Lumpur In 2023',
+      'link': 'https://traveltriangle.com/blog/places-to-visit-in-kuala-lumpur/',
+      'displayed_link': 'https://traveltriangle.com › Blog › Places To Visit',
+      'thumbnail': 'https://serpapi.com/searches/65481c5beb690fdc83495ab3/images/b2a4b7e4c5ec4d68d43bb41ba6f9d2b8ee3f70b2440bb0cd16fce8c17e50413d.jpeg',
+      'favicon': 'https://serpapi.com/searches/65481c5beb690fdc83495ab3/images/b2a4b7e4c5ec4d68d43bb41ba6f9d2b8c275965b5237b25be5f3391b1acca610.png',
+      'date': 'Mar 23, 2023',
+      'snippet': '19 Best Places To Visit In Kuala Lumpur In 2023: The City Of Lights · 19. Istana Budaya – Cultural Palace · 18. Titiwangsa Lake Garden – Take A ...',
+      'snippet_highlighted_words': [
+        'Places',
+        'Kuala Lumpur'
+      ],
+      'about_page_link': 'https://www.google.com/search?q=About+https://traveltriangle.com/blog/places-to-visit-in-kuala-lumpur/&tbm=ilp',
+      'about_page_serpapi_link': 'https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Ftraveltriangle.com%2Fblog%2Fplaces-to-visit-in-kuala-lumpur%2F',
+      'cached_page_link': 'https://webcache.googleusercontent.com/search?q=cache:i1idQWzFaV8J:https://traveltriangle.com/blog/places-to-visit-in-kuala-lumpur/&hl=en&gl=us',
+      'source': 'TravelTriangle.com'
+    },
+    {
+      'position': 2,
+      'title': 'THE 15 BEST Things to Do in Kuala Lumpur',
+      'link': 'https://www.tripadvisor.com/Attractions-g298570-Activities-Kuala_Lumpur_Wilayah_Persekutuan.html',
+      'displayed_link': 'https://www.tripadvisor.com › ... › Kuala Lumpur',
+      'thumbnail': 'https://serpapi.com/searches/65481c5beb690fdc83495ab3/images/b2a4b7e4c5ec4d68d43bb41ba6f9d2b8d419ac64243242244bc025b7d105b242.jpeg',
+      'favicon': 'https://serpapi.com/searches/65481c5beb690fdc83495ab3/images/b2a4b7e4c5ec4d68d43bb41ba6f9d2b8a62de97add76ee8dc73f5c078575836c.png',
+      'rich_snippet': {
+        'bottom': {
+          'detected_extensions': {
+            'attractions': 1398,
+            'attraction_reviews': 197260,
+            'attraction_photos': 167291
+          },
+          'extensions': [
+            'Attractions: 1,398',
+            'Attraction Reviews: 197,260',
+            'Attraction Photos: 167,291'
+          ]
+        }
+      },
+      'about_page_link': 'https://www.google.com/search?q=About+https://www.tripadvisor.com/Attractions-g298570-Activities-Kuala_Lumpur_Wilayah_Persekutuan.html&tbm=ilp',
+      'about_page_serpapi_link': 'https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.tripadvisor.com%2FAttractions-g298570-Activities-Kuala_Lumpur_Wilayah_Persekutuan.html',
+      'rich_snippet_list': [
+        '1. Petronas Twin Towers',
+        '2. Royal Selangor Visitor Centre',
+        '3. KLCC Park',
+        '4. Islamic Arts Museum Malaysia',
+        '5. Pavilion KL',
+        '6. Kuala Lumpur Bird Park'
+      ],
+      'source': 'Tripadvisor'
+    },
+    {
+      'position': 3,
+      'title': '55 Places to Visit in Kuala Lumpur',
+      'link': 'https://www.thrillophilia.com/places-to-visit-in-kuala-lumpur',
+      'displayed_link': 'https://www.thrillophilia.com › Malaysia › Kuala Lumpur',
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE9PtwgklRrDVyW9WRolgiYhwZEUS-JYsusTx4B8ijiueZgyothMmh&usqp=CAE&s',
+      'favicon': 'https://serpapi.com/searches/65481c5beb690fdc83495ab3/images/b2a4b7e4c5ec4d68d43bb41ba6f9d2b8aa8931930d44caf0086c61d9ef5250de.png',
+      'snippet': 'Tourist Places in Kuala Lumpur. Petronas Twin Tower, Menara KL Tower, Kuala Lumpur Bird Park, Batu Caves, Sultan Abdul Samad Building, Sunway Lagoon Theme Park, ...',
+      'snippet_highlighted_words': [
+        'Places',
+        'Kuala Lumpur',
+        'KL',
+        'Kuala Lumpur'
+      ],
+      'about_page_link': 'https://www.google.com/search?q=About+https://www.thrillophilia.com/places-to-visit-in-kuala-lumpur&tbm=ilp',
+      'about_page_serpapi_link': 'https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.thrillophilia.com%2Fplaces-to-visit-in-kuala-lumpur',
+      'source': 'Thrillophilia'
+    },
+    {
+      'position': 4,
+      'title': '24 Top Attractions & Things to do in Kuala Lumpur',
+      'link': 'https://www.touropia.com/tourist-attractions-in-kuala-lumpur/',
+      'displayed_link': 'https://www.touropia.com › World › Malaysia',
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr8sOEA5ucUMfi1MmchAdOi67uE6Nelqx4-UuaW962Cme_gnJ9t198&usqp=CAE&s',
+      'favicon': 'https://serpapi.com/searches/65481c5beb690fdc83495ab3/images/b2a4b7e4c5ec4d68d43bb41ba6f9d2b878cfb9dbb2ddefa4137b3198db1b5e85.png',
+      'date': 'Oct 3, 2023',
+      'snippet': '24 Top Attractions & Things to do in Kuala Lumpur · 1. Petronas Twin Towers · 2. Berjaya Times Square · 3. Menara KL Tower · 4. Jalan Alor Food ...',
+      'snippet_highlighted_words': [
+        'Attractions',
+        'Kuala Lumpur'
+      ],
+      'about_page_link': 'https://www.google.com/search?q=About+https://www.touropia.com/tourist-attractions-in-kuala-lumpur/&tbm=ilp',
+      'about_page_serpapi_link': 'https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.touropia.com%2Ftourist-attractions-in-kuala-lumpur%2F',
+      'cached_page_link': 'https://webcache.googleusercontent.com/search?q=cache:O2b6dYhCSjAJ:https://www.touropia.com/tourist-attractions-in-kuala-lumpur/&hl=en&gl=us',
+      'source': 'Touropia'
+    },
+    {
+      'position': 5,
+      'title': '10 Best Things to Do in Kuala Lumpur',
+      'link': 'https://www.hotels.com/go/malaysia/best-things-to-do-kuala-lumpur',
+      'displayed_link': 'https://www.hotels.com › malaysia › best-things-to-do...',
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoLWygwBTTdVlvnJ-Hv2rmzihjo5ziJW2uZgqfze2qIALYq3a6PpgV&usqp=CAE&s',
+      'favicon': 'https://serpapi.com/searches/65481c5beb690fdc83495ab3/images/b2a4b7e4c5ec4d68d43bb41ba6f9d2b8ef98a9c06d659ecd2f69ec647f1b5b17.png',
+      'snippet': 'Petronas Twin Towers · Menara Kuala Lumpur · Chinatown · Batu Caves · National Mosque of Malaysia · Sultan Abdul Samad Building · Sunway Lagoon · Jalan Alor ...',
+      'snippet_highlighted_words': [
+        'Kuala Lumpur'
+      ],
+      'sitelinks': {
+        'inline': [
+          {
+            'title': 'Menara Kuala Lumpur',
+            'link': 'https://www.hotels.com/go/malaysia/best-things-to-do-kuala-lumpur#:~:text=Menara%20Kuala%20Lumpur,-Jalan%20P%20Ramlee'
+          },
+          {
+            'title': 'Jalan P Ramlee',
+            'link': 'https://www.hotels.com/go/malaysia/best-things-to-do-kuala-lumpur#:~:text=Jalan%20P%20Ramlee'
+          },
+          {
+            'title': 'National Mosque Of Malaysia',
+            'link': 'https://www.hotels.com/go/malaysia/best-things-to-do-kuala-lumpur#:~:text=National%20Mosque%20of%20Malaysia,-Sacred%20space%20featuring%20Mecca%2D'
+          }
+        ]
+      },
+      'about_page_link': 'https://www.google.com/search?q=About+https://www.hotels.com/go/malaysia/best-things-to-do-kuala-lumpur&tbm=ilp',
+      'about_page_serpapi_link': 'https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.hotels.com%2Fgo%2Fmalaysia%2Fbest-things-to-do-kuala-lumpur',
+      'cached_page_link': 'https://webcache.googleusercontent.com/search?q=cache:dVo9Y3yFZG0J:https://www.hotels.com/go/malaysia/best-things-to-do-kuala-lumpur&hl=en&gl=us',
+      'source': 'Hotels.com'
+    },
+    {
+      'position': 6,
+      'title': '17 Top-Rated Tourist Attractions in Kuala Lumpur',
+      'link': 'https://www.planetware.com/malaysia/top-rated-tourist-attractions-in-kuala-lumpur-mal-1-2.htm',
+      'displayed_link': 'https://www.planetware.com › malaysia › top-rated-to...',
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW3ExDa1FyDZ5Mv7evSwbMcNJ0j6TFsTTHzpTRrZt9ZOjiO7T0Zc3o&usqp=CAE&s',
+      'favicon': 'https://serpapi.com/searches/65481c5beb690fdc83495ab3/images/b2a4b7e4c5ec4d68d43bb41ba6f9d2b8a1073b3c26683c11d48eca1eb3cdb9f9.png',
+      'date': 'Mar 22, 2023',
+      'snippet': '1. Petronas Twin Towers; 2. KLCC Park; 3. Kuala Lumpur Bird Park; 4. Petaling Street; 5. Merdeka Square; 6. Sunway Lagoon Theme Park; 7. Kuala ...',
+      'snippet_highlighted_words': [
+        'Kuala Lumpur'
+      ],
+      'sitelinks': {
+        'inline': [
+          {
+            'title': '1. Petronas Twin Towers',
+            'link': 'https://www.planetware.com/malaysia/top-rated-tourist-attractions-in-kuala-lumpur-mal-1-2.htm#:~:text=Chart-,1.%20Petronas%20Twin%20Towers'
+          },
+          {
+            'title': '2. Klcc Park',
+            'link': 'https://www.planetware.com/malaysia/top-rated-tourist-attractions-in-kuala-lumpur-mal-1-2.htm#:~:text=.-,2.%20KLCC%20Park'
+          },
+          {
+            'title': '11. Batu Caves',
+            'link': 'https://www.planetware.com/malaysia/top-rated-tourist-attractions-in-kuala-lumpur-mal-1-2.htm#:~:text=http%3A%2F%2Fklbutterflypark.com%2F-,11.%20Batu%20Caves'
+          }
+        ]
+      },
+      'about_page_link': 'https://www.google.com/search?q=About+https://www.planetware.com/malaysia/top-rated-tourist-attractions-in-kuala-lumpur-mal-1-2.htm&tbm=ilp',
+      'about_page_serpapi_link': 'https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.planetware.com%2Fmalaysia%2Ftop-rated-tourist-attractions-in-kuala-lumpur-mal-1-2.htm',
+      'cached_page_link': 'https://webcache.googleusercontent.com/search?q=cache:bDgxF1roR-AJ:https://www.planetware.com/malaysia/top-rated-tourist-attractions-in-kuala-lumpur-mal-1-2.htm&hl=en&gl=us',
+      'source': 'PlanetWare'
+    },
+    {
+      'position': 7,
+      'title': '52 Best Things to do in Kuala Lumpur (KL) Malaysia 2023',
+      'link': 'https://www.holidify.com/places/kuala-lumpur/sightseeing-and-things-to-do.html',
+      'displayed_link': 'https://www.holidify.com › ... › Kuala Lumpur',
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuI_VGOBQrxhsIf5n8_L8sQyDdZZ6dcENPzp6Q0wvuZOyxTgidl9Ot&usqp=CAE&s',
+      'favicon': 'https://serpapi.com/searches/65481c5beb690fdc83495ab3/images/b2a4b7e4c5ec4d68d43bb41ba6f9d2b814b312cc539fde16c6f12a24f17309ae.png',
+      'snippet': 'The top sightseeing places in Kuala lumpur are Petronas Towers, Batu caves, Menara Kuala Lumpur, Sunway Lagoon Theme Park, Aquaria KLCC, Jalan Alor. What are ...',
+      'snippet_highlighted_words': [
+        'places',
+        'Kuala lumpur',
+        'Kuala Lumpur'
+      ],
+      'about_page_link': 'https://www.google.com/search?q=About+https://www.holidify.com/places/kuala-lumpur/sightseeing-and-things-to-do.html&tbm=ilp',
+      'about_page_serpapi_link': 'https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.holidify.com%2Fplaces%2Fkuala-lumpur%2Fsightseeing-and-things-to-do.html',
+      'cached_page_link': 'https://webcache.googleusercontent.com/search?q=cache:Y6naaHZIVv0J:https://www.holidify.com/places/kuala-lumpur/sightseeing-and-things-to-do.html&hl=en&gl=us',
+      'source': 'Holidify'
+    },
+    {
+      'position': 8,
+      'title': 'Top Things to Do in Kuala Lumpur 2022',
+      'link': 'https://www.trip.com/travel-guide/attraction/kuala-lumpur-45/tourist-attractions/',
+      'displayed_link': 'https://www.trip.com › ... › Malaysia › Kuala Lumpur',
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCiyOsGZvWgKC6GJDFjFwAbgwBgoTOMN8DcWXZZ1QMrHgfrg6dVk21&usqp=CAE&s',
+      'favicon': 'https://serpapi.com/searches/65481c5beb690fdc83495ab3/images/b2a4b7e4c5ec4d68d43bb41ba6f9d2b8e4a64f73e1481e65f3bd31bc56f16617.png',
+      'snippet': 'Best Things to Do in Kuala Lumpur in November (Updated 2023) · 1. Petronas Twin Towers · 2. Aquaria KLCC · 3. Sunway Lagoon Theme Park · 4. Menara Kuala Lumpur · 5.',
+      'snippet_highlighted_words': [
+        'Kuala Lumpur',
+        'Kuala Lumpur'
+      ],
+      'about_page_link': 'https://www.google.com/search?q=About+https://www.trip.com/travel-guide/attraction/kuala-lumpur-45/tourist-attractions/&tbm=ilp',
+      'about_page_serpapi_link': 'https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.trip.com%2Ftravel-guide%2Fattraction%2Fkuala-lumpur-45%2Ftourist-attractions%2F',
+      'cached_page_link': 'https://webcache.googleusercontent.com/search?q=cache:ObpQk6ayYKAJ:https://www.trip.com/travel-guide/attraction/kuala-lumpur-45/tourist-attractions/&hl=en&gl=us',
+      'source': 'Trip.com'
+    },
+    {
+      'position': 9,
+      'title': '30 Places to Visit in Kuala Lumpur',
+      'link': 'https://www.makemytrip.com/tripideas/places-to-visit-in-kuala-lumpur',
+      'displayed_link': 'https://www.makemytrip.com › tripideas › places-to-visit...',
+      'thumbnail': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0_sRbRj1t7hoePs2v-64nNg4_4o_cd-GQDEjoPwMoadFqJcPPTQap&usqp=CAE&s',
+      'favicon': 'https://serpapi.com/searches/65481c5beb690fdc83495ab3/images/b2a4b7e4c5ec4d68d43bb41ba6f9d2b820024effcefe6ce75b82a85fa927a74b.png',
+      'snippet': 'Places to Visit in Kuala Lumpur · Petronas Twin Towers · Genting Highlands · Aquaria KLCC · Jamek Mosque · Thean Hou Temple · Kuala Lumpur Bird Park · Sri ...',
+      'snippet_highlighted_words': [
+        'Places',
+        'Kuala Lumpur',
+        'Kuala Lumpur'
+      ],
+      'about_page_link': 'https://www.google.com/search?q=About+https://www.makemytrip.com/tripideas/places-to-visit-in-kuala-lumpur&tbm=ilp',
+      'about_page_serpapi_link': 'https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.makemytrip.com%2Ftripideas%2Fplaces-to-visit-in-kuala-lumpur',
+      'source': 'MakeMyTrip'
+    }
+  ],
+  'related_searches': [
+    {
+      'block_position': 1,
+      'query': 'Kuala lumpur destinations packages',
+      'link': 'https://www.google.com/search?sca_esv=579673275&q=Kuala+lumpur+destinations+packages&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ1QJ6BAhbEAE',
+      'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Kuala+lumpur+destinations+packages'
+    },
+    {
+      'block_position': 1,
+      'query': 'Kuala lumpur destinations map',
+      'link': 'https://www.google.com/search?sca_esv=579673275&q=Kuala+lumpur+destinations+map&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ1QJ6BAhZEAE',
+      'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Kuala+lumpur+destinations+map'
+    },
+    {
+      'block_position': 1,
+      'query': 'places to visit in kl for free',
+      'link': 'https://www.google.com/search?sca_esv=579673275&q=Places+to+visit+in+KL+for+free&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ1QJ6BAhYEAE',
+      'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Places+to+visit+in+KL+for+free'
+    },
+    {
+      'block_position': 1,
+      'query': 'best place in kl to hangout',
+      'link': 'https://www.google.com/search?sca_esv=579673275&q=Best+place+in+KL+to+hangout&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ1QJ6BAhXEAE',
+      'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Best+place+in+KL+to+hangout'
+    },
+    {
+      'block_position': 1,
+      'query': 'places to visit in kuala lumpur for couples',
+      'link': 'https://www.google.com/search?sca_esv=579673275&q=Places+to+visit+in+Kuala+Lumpur+for+couples&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ1QJ6BAhWEAE',
+      'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Places+to+visit+in+Kuala+Lumpur+for+couples'
+    },
+    {
+      'block_position': 1,
+      'query': 'unique places to visit in kl',
+      'link': 'https://www.google.com/search?sca_esv=579673275&q=Unique+places+to+visit+in+KL&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ1QJ6BAhVEAE',
+      'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Unique+places+to+visit+in+KL'
+    },
+    {
+      'block_position': 1,
+      'query': 'menara kuala lumpur',
+      'link': 'https://www.google.com/search?sca_esv=579673275&q=Menara+Kuala+Lumpur&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ1QJ6BAhUEAE',
+      'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Menara+Kuala+Lumpur'
+    },
+    {
+      'block_position': 1,
+      'query': 'outdoor attractions in federal territory of kuala lumpur',
+      'link': 'https://www.google.com/search?sca_esv=579673275&q=Outdoor+attractions+in+Federal+Territory+of+Kuala+Lumpur&sa=X&ved=2ahUKEwiszruX-a2CAxUXj2oFHd0dD3sQ1QJ6BAhTEAE',
+      'serpapi_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Outdoor+attractions+in+Federal+Territory+of+Kuala+Lumpur'
+    }
+  ],
+  'pagination': {
+    'current': 1,
+    'next': 'https://www.google.com/search?q=Kuala+Lumpur+Destinations&oq=Kuala+Lumpur+Destinations&start=10&sourceid=chrome&ie=UTF-8',
+    'other_pages': {
+      '2': 'https://www.google.com/search?q=Kuala+Lumpur+Destinations&oq=Kuala+Lumpur+Destinations&start=10&sourceid=chrome&ie=UTF-8',
+      '3': 'https://www.google.com/search?q=Kuala+Lumpur+Destinations&oq=Kuala+Lumpur+Destinations&start=20&sourceid=chrome&ie=UTF-8',
+      '4': 'https://www.google.com/search?q=Kuala+Lumpur+Destinations&oq=Kuala+Lumpur+Destinations&start=30&sourceid=chrome&ie=UTF-8',
+      '5': 'https://www.google.com/search?q=Kuala+Lumpur+Destinations&oq=Kuala+Lumpur+Destinations&start=40&sourceid=chrome&ie=UTF-8'
+    }
+  },
+  'serpapi_pagination': {
+    'current': 1,
+    'next_link': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Kuala+Lumpur+Destinations&start=10',
+    'next': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Kuala+Lumpur+Destinations&start=10',
+    'other_pages': {
+      '2': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Kuala+Lumpur+Destinations&start=10',
+      '3': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Kuala+Lumpur+Destinations&start=20',
+      '4': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Kuala+Lumpur+Destinations&start=30',
+      '5': 'https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Kuala+Lumpur+Destinations&start=40'
+    }
+  }
+}
